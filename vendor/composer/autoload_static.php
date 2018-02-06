@@ -25,7 +25,6 @@ class ComposerStaticInitc145c6f75831158d75a1f3ecae6b35ce
             'Zend\\Text\\' => 10,
             'Zend\\Test\\' => 10,
             'Zend\\Stdlib\\' => 12,
-            'Zend\\SkeletonInstaller\\' => 23,
             'Zend\\Session\\' => 13,
             'Zend\\ServiceManager\\' => 20,
             'Zend\\Router\\' => 12,
@@ -83,9 +82,14 @@ class ComposerStaticInitc145c6f75831158d75a1f3ecae6b35ce
             'Doctrine\\Instantiator\\' => 22,
             'DeepCopy\\' => 9,
         ),
+        'B' => 
+        array (
+            'Blog\\' => 5,
+        ),
         'A' => 
         array (
             'Application\\' => 12,
+            'ApplicationTest\\' => 16,
         ),
     );
 
@@ -119,10 +123,6 @@ class ComposerStaticInitc145c6f75831158d75a1f3ecae6b35ce
         'Zend\\Stdlib\\' => 
         array (
             0 => __DIR__ . '/..' . '/zendframework/zend-stdlib/src',
-        ),
-        'Zend\\SkeletonInstaller\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/zendframework/zend-skeleton-installer/src',
         ),
         'Zend\\Session\\' => 
         array (
@@ -288,9 +288,17 @@ class ComposerStaticInitc145c6f75831158d75a1f3ecae6b35ce
         array (
             0 => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy',
         ),
+        'Blog\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/module/Blog/src',
+        ),
         'Application\\' => 
         array (
             0 => __DIR__ . '/../..' . '/module/Application/src',
+        ),
+        'ApplicationTest\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/module/Application/test',
         ),
     );
 

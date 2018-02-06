@@ -13,7 +13,6 @@ return array(
     'Zend\\Text\\' => array($vendorDir . '/zendframework/zend-text/src'),
     'Zend\\Test\\' => array($vendorDir . '/zendframework/zend-test/src'),
     'Zend\\Stdlib\\' => array($vendorDir . '/zendframework/zend-stdlib/src'),
-    'Zend\\SkeletonInstaller\\' => array($vendorDir . '/zendframework/zend-skeleton-installer/src'),
     'Zend\\Session\\' => array($vendorDir . '/zendframework/zend-session/src'),
     'Zend\\ServiceManager\\' => array($vendorDir . '/zendframework/zend-servicemanager/src'),
     'Zend\\Router\\' => array($vendorDir . '/zendframework/zend-router/src'),
@@ -55,5 +54,7 @@ return array(
     'Interop\\Container\\' => array($vendorDir . '/container-interop/container-interop/src/Interop/Container'),
     'Doctrine\\Instantiator\\' => array($vendorDir . '/doctrine/instantiator/src/Doctrine/Instantiator'),
     'DeepCopy\\' => array($vendorDir . '/myclabs/deep-copy/src/DeepCopy'),
+    'Blog\\' => array($baseDir . '/module/Blog/src'),
     'Application\\' => array($baseDir . '/module/Application/src'),
+    'ApplicationTest\\' => array($baseDir . '/module/Application/test'),
 );
